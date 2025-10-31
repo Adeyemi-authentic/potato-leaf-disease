@@ -63,7 +63,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Initialize model
 model = DeepPotato(num_classes=len(CLASS_NAMES)).to(device)
-model.load_state_dict(torch.load("potato_cnn.pth", map_location=device))
+model.load_state_dict(torch.load("potato_disease_cnn.pth", map_location=device))
 model.eval()
 
 # Define transforms
