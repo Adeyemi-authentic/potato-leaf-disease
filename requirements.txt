@@ -4,4 +4,4 @@ torch
 torchvision
 Pillow
 numpy
-pandas
+python-multipart
